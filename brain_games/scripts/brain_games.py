@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from cli import welcome_user
-from brain_even import question
+from brain_even import game
 
 
 def greet():
@@ -15,7 +15,7 @@ def main():
     greet()
     welcome_user()
     game_rules()
-    question()
+    game()
 
 
 if __name__ == '__main__':
