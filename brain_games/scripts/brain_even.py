@@ -3,49 +3,34 @@ import prompt
 import random
 
 
-name = prompt.string('May I have your name? ')
-
-
-def greeting():
+def greet():
     print('Welcome to the Brain Games!')
 
 
-def welcome_user():
-    print("Hello, " + name + '!')
-
-
-def game_rules():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-
-
-user_answer = prompt.string()
-
-def correct_answer():
-    if user_answer == 'yes':
-        print('no')
-    else:
-        print('yes')
-
-
 def game():
+    name = prompt.string('May I have your name? ')
+    print(f"Hello, {name}!")
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     index = 0
-    winscore = 3
-    number = random.randint(1, 100)
-    while index < winscore:
-        print(number)
+    counter = 3
+    while index < counter:
+        number = random.randint(1, 100)
+        print(f"Question: {number}")
         index += 1
+        user_answer = prompt.string('Your answer:')
+        correct = 'yes' if number % 2 == 0 else 'no'
         if user_answer == 'yes' and number % 2 == 0 or user_answer == 'no' and number % 2 != 0:
             print('Correct!')
-    else:
-        print("'" + user_answer + '"' + "is wrong answer. Correct answer was" + "'" + correct_answer + "'" + "Let's try again," + name + "!")
-    
+        else:
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct}'.\nLet's try again, {name}!")
+            break
+        print(f"Congratulations, {name}!")
+
 
 def main():
-    greeting()
-    welcome_user()
-    game_rules()
+    greet()
     game()
 
 
 if __name__ == '__main__':
-    greeting()
+    greet()
