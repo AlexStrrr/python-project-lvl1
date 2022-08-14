@@ -17,7 +17,7 @@ def game():
         number = random.randint(1, 100)
         print(f"Question: {number}")
         index += 1
-        user_answer = prompt.string('Your answer:')
+        user_answer = prompt.string('Your answer: ')
         correct = 'yes' if number % 2 == 0 else 'no'
         if user_answer == 'yes' and number % 2 == 0 or user_answer == 'no' and number % 2 != 0:
             print('Correct!')
