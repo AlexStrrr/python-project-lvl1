@@ -2,4 +2,9 @@
 
 dist
 
-.vscode
+.vscode/configurationCache.log
+
+.vscode/targets.log
+
+brain_games/scripts/__pycache__/brain_even.cpython-38.pyc
+
