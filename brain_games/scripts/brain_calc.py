@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-from random import random
 from random import randint
 from random import choice
-from webbrowser import Opera
 import prompt
 
 
@@ -31,8 +29,10 @@ def game2():
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct}'.\nLet's try again, {name}!")
             break
-        print(f"Congratulations, {name}!")
 
+    else:
+        print(f"Congratulations, {name}!")
+        
 
 def main():
     greet()
@@ -40,4 +40,4 @@ def main():
 
 
 if __name__ == '__main__':
-    greet()
+    main()
