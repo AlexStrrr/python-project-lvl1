@@ -5,7 +5,7 @@
 <a href="https://codeclimate.com/github/AlexStrrr/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/d0288bbf7f2f306b3e23/maintainability" /></a>
 
 ### Brain-even:
-https://asciinema.org/a/YqjVscXOupZaXCa712fuNOZyp
+https://asciinema.org/a/uBvVIh68YHv2AopOmGX4eO4Tu
 
 ### Brain-calc:
 https://asciinema.org/a/0fUky09bp1w5vdaEJyDtP5fvl
