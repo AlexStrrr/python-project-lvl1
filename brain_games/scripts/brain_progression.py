@@ -13,7 +13,7 @@ def game4():
     index = 0
     counter = 3
     while index < counter:
-        step = randint(2, 6)
+        step = randint(1, 9)
         progression = list(range(0, 100, step))
         length = randint(5, 10)
         progression = progression[:length]
