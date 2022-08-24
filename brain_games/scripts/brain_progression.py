@@ -1,26 +1,43 @@
 #!/usr/bin/env python3
-from random import randint
+from random import randint, choice
 import prompt
-import random
-
 
 def greet():
     print('Welcome to the Brain Games!')
 
 
-def game3():
+def game4():
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
     print('What number is missing in the progression?')
     index = 0
     counter = 3
     while index < counter:
-        step = randint(1, 9)
-        prog_len = (5, 10)
-        change_number = randint(0, prog_len)
+        step = randint(2, 6)
         progression = list(range(0, 100, step))
-        ser = progression[:prog_len]
-        correct_answer = ser[change_number]
+        length = randint(5, 10)
+        progression = progression[:length]
+        x = choice(progression)
+        index_x = progression.index(x)
+        progression[index_x] = '..'
+        progression = ' '.join(map(str, progression))
+        print(f"Question: {progression}")
+        index += 1
+        user_answer = prompt.string('Your answer: ')
+        if user_answer == str(x):
+            print('Correct!')
+        else:
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{x}'.\nLet's try again, {name}!")
+            break
+
+    else:
+        print(f"Congratulations, {name}!")
         
 
-        print(f"Question: {progression}")
+def main():
+    greet()
+    game4()
+
+
+if __name__ == '__main__':
+    main()
