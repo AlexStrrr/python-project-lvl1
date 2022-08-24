@@ -13,8 +13,9 @@ def game4():
     index = 0
     counter = 3
     while index < counter:
-        step = randint(1, 9)
-        progression = list(range(0, 100, step))
+        step = randint(1, 8)
+        start = randint(0, 50)
+        progression = list(range(start, 100, step))
         length = randint(5, 10)
         progression = progression[:length]
         x = choice(progression)
