@@ -1,10 +1,9 @@
 from random import randint
 import prompt
+from brain_games.cli import name
 
 
 def game5():
-    name = prompt.string('May I have your name? ')
-    print(f"Hello, {name}!")
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     index = 0
     counter = 3

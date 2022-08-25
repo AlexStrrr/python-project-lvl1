@@ -1,11 +1,10 @@
 from random import randint
 from random import choice
 import prompt
+from brain_games.cli import name
 
 
 def game2():
-    name = prompt.string('May I have your name? ')
-    print(f"Hello, {name}!")
     print('What is the result of the expression?')
     index = 0
     counter = 3
