@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 from brain_games.games.game1 import game
-from brain_games.cli import welcome_user
 
 
 def main():
-    welcome_user()
     game()
 
 

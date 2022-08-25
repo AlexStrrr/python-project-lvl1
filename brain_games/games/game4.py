@@ -1,9 +1,13 @@
 from random import randint, choice
 import prompt
-from brain_games.cli import name
+
+
+print('Welcome to the Brain Games!')
 
 
 def game4():
+    name = prompt.string('May I have your name? ')
+    print("Hello, " + name + '!')
     print('What number is missing in the progression?')
     index = 0
     counter = 3

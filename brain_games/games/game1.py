@@ -1,9 +1,13 @@
 import prompt
 import random
-from brain_games.cli import name
+
+
+print('Welcome to the Brain Games!')
 
 
 def game():
+    name = prompt.string('May I have your name? ')
+    print("Hello, " + name + '!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
     index = 0
     counter = 3

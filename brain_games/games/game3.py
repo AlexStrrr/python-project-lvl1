@@ -1,10 +1,14 @@
 from random import randint
 import math
 import prompt
-from brain_games.cli import name
+
+
+print('Welcome to the Brain Games!')
 
 
 def game3():
+    name = prompt.string('May I have your name? ')
+    print("Hello, " + name + '!')
     print('Find the greatest common divisor of given numbers.')
     index = 0
     counter = 3
