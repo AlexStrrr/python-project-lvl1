@@ -9,7 +9,7 @@ def greet():
 def game5():
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
-    print('What number is missing in the progression?')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     index = 0
     counter = 3
     while index < counter:

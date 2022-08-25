@@ -7,3 +7,5 @@ dist
 brain_games/scripts/__pycache__/brain_even.cpython-38.pyc
 
 brain_games/scripts/__pycache__/brain_calc.cpython-38.pyc
+
+brain_games/scripts/__pycache__/brain_prime.cpython-38.pyc
