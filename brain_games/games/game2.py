@@ -17,7 +17,7 @@ def game2():
         number2 = randint(1, 10)
         operator = ["+", "-", "*"]
         operator = choice(operator)
-        print(f"Question: {number1}{operator}{number2}")
+        print(f"Question: {number1} {operator} {number2}")
         index += 1
         user_answer = prompt.string('Your answer: ')
         correct = eval(f'{number1}{operator}{number2}')
