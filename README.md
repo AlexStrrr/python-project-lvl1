@@ -5,16 +5,16 @@
 <a href="https://codeclimate.com/github/AlexStrrr/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/d0288bbf7f2f306b3e23/maintainability" /></a>
 
 ### Brain-even:
-https://asciinema.org/a/uBvVIh68YHv2AopOmGX4eO4Tu
+<a href="https://asciinema.org/a/515475" target="_blank"><img src="https://asciinema.org/a/515475.svg" /></a>
 
 ### Brain-calc:
-https://asciinema.org/a/0fUky09bp1w5vdaEJyDtP5fvl
+<a href="https://asciinema.org/a/515472" target="_blank"><img src="https://asciinema.org/a/515472.svg" /></a>
 
 #### Brain-gcd:
-https://asciinema.org/a/6BcdQLPWNIglAo7VPk6ETpE6Y
+<a href="https://asciinema.org/a/515546" target="_blank"><img src="https://asciinema.org/a/515546.svg" /></a>
 
 #### Brain-progression:
-https://asciinema.org/a/OeeWlb1tAtVfU6UNo0gPiB8RS
+<a href="https://asciinema.org/a/517026" target="_blank"><img src="https://asciinema.org/a/517026.svg" /></a>
 
 #### Brain-prime:
-https://asciinema.org/a/3C4WeaeveshvrA8munufe9pfh
+<a href="https://asciinema.org/a/517397" target="_blank"><img src="https://asciinema.org/a/517397.svg" /></a>
