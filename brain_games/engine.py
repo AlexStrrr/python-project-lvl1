@@ -1,7 +1,5 @@
 import prompt
 
-from brain_games.games.game1 import QUESTION
-
 
 print('Welcome to the Brain Games!')
 
