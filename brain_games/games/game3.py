@@ -4,6 +4,7 @@ import math
 
 QUESTION = 'Find the greatest common divisor of given numbers.'
 
+
 def round():
     number1 = randint(1, 100)
     number2 = randint(1, 100)

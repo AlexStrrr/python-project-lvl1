@@ -1,5 +1,4 @@
 from random import randint, choice
-import prompt
 
 
 QUESTION = 'What number is missing in the progression?'
