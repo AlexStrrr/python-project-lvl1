@@ -1,6 +1,5 @@
 from random import randint
 from random import choice
-import prompt
 
 
 QUESTION = 'What is the result of the expression?'
