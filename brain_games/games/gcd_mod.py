@@ -2,7 +2,7 @@ from random import randint
 import math
 
 
-QUESTION = 'Find the greatest common divisor of given numbers.'
+GAME_RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def round():

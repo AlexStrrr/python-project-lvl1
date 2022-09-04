@@ -1,7 +1,7 @@
 from random import randint, choice
 
 
-QUESTION = 'What number is missing in the progression?'
+GAME_RULE = 'What number is missing in the progression?'
 
 
 def round():

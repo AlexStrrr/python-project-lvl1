@@ -4,11 +4,11 @@ import prompt
 print('Welcome to the Brain Games!')
 
 
-def start(game):
+def run(game):
     print("Welcome to The Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
-    print(game.QUESTION)
+    print(game.GAME_RULE)
     counter = 3
     for _ in range(counter):
         question, correct = game.round()

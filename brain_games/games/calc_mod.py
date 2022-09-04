@@ -2,7 +2,7 @@ from random import randint
 from random import choice
 
 
-QUESTION = 'What is the result of the expression?'
+GAME_RULE = 'What is the result of the expression?'
 
 
 def round():

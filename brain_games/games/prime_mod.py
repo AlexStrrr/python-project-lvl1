@@ -1,7 +1,7 @@
 from random import randint
 
 
-QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def round():
