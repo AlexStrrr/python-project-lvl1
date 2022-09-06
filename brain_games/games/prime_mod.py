@@ -4,8 +4,12 @@ from random import randint
 GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def round():
-    number = randint(1, 100)
+min_number = 1
+max_number = 100
+
+
+def get_game():
+    number = randint(min_number, max_number)
     question = number
     correct = 'yes' if is_prime(number) is True else 'no'
     return question, correct
