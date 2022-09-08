@@ -1,17 +1,17 @@
 import random
 
 
-GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
-min_number = 1
-max_number = 100
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+LOWER_BOUND = 1
+UPPER_BOUND = 100
 
 
-def get_game():
-    number = random.randint(min_number, max_number)
+def get_round():
+    number = random.randint(UPPER_BOUND, UPPER_BOUND)
     question = number
-    correct = 'yes' if is_even(number) is True else 'no'
+    correct = 'yes' if is_even(number) else 'no'
     return str(question), correct
 
 
 def is_even(number):
-    return True if number % 2 == 0 else False
+    return number % 2 == 0

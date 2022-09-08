@@ -2,14 +2,14 @@ from random import randint
 import math
 
 
-GAME_RULE = 'Find the greatest common divisor of given numbers.'
-min_number = 1
-max_number = 100
+RULES = 'Find the greatest common divisor of given numbers.'
+LOWER_BOUND = 1
+UPPER_BOUND = 100
 
 
-def get_game():
-    number1 = randint(min_number, max_number)
-    number2 = randint(min_number, max_number)
+def get_round():
+    number1 = randint(LOWER_BOUND, UPPER_BOUND)
+    number2 = randint(LOWER_BOUND, UPPER_BOUND)
     question = (f"{number1} {number2}")
     correct = math.gcd(number1, number2)
     correct = str(correct)

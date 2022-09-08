@@ -1,7 +1,7 @@
 from random import randint, choice
 
 
-GAME_RULE = 'What number is missing in the progression?'
+RULES = 'What number is missing in the progression?'
 
 
 MIN_COM_DIFF = 1
@@ -26,7 +26,7 @@ def get_question(progression, x):
     return progression
 
 
-def get_game():
+def get_round():
     common_difference = randint(MIN_COM_DIFF, MAX_COM_DIFF)
     initial_term = randint(MIN_INIT, MAX_INIT)
     len_of_question = randint(MIN_QUESTION_LEN, MAX_QUESTION_LEN)
