@@ -7,7 +7,7 @@ UPPER_BOUND = 100
 
 
 def get_round():
-    number = random.randint(UPPER_BOUND, UPPER_BOUND)
+    number = random.randint(LOWER_BOUND, UPPER_BOUND)
     question = number
     correct = 'yes' if is_even(number) else 'no'
     return str(question), correct

@@ -16,6 +16,7 @@ def get_round():
 
 
 def is_prime(number):
-    prime_number = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31,
-                    37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
-    return True if number in prime_number else False
+    divider = 2
+    while divider ** 2 <= number and number % divider != 0:
+        divider += 1
+    return divider ** 2 > number
