@@ -27,7 +27,7 @@ def get_round():
     common_difference = randint(MIN_COM_DIFF, MAX_COM_DIFF)
     initial_term = randint(MIN_INIT, MAX_INIT)
     len_of_question = randint(MIN_QUESTION_LEN, MAX_QUESTION_LEN)
-    index = randint(0, len_of_question)
+    index = randint(0, len_of_question - 1)
     progression = \
         get_progression(initial_term, len_of_question, common_difference)
     x = progression[index]
